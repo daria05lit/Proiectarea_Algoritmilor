@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int arr[] = {5, 2, 9, 1, 5, 6};
+    int arr[] = {55, 25, 95, 15, 45, 565};
     int n = sizeof(arr)/sizeof(arr[0]);
 
     for (int i = 0; i < n - 1; i++)
@@ -14,4 +14,5 @@ int main() {
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
     return 0;
+
 }
