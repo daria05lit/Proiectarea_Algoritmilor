@@ -17,7 +17,7 @@ void countingSort(int arr[], int n) {
 }
 
 int main() {
-    int arr[] = {4, 2, 2, 8, 3, 3, 1};
+    int arr[] = {44, 22, 222, 88, 33, 33, 11};
     int n = sizeof(arr)/sizeof(arr[0]);
     countingSort(arr, n);
 
@@ -25,4 +25,5 @@ int main() {
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
     return 0;
+
 }
